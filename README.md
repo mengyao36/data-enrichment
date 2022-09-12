@@ -12,6 +12,7 @@
 - rename zip variable as "zip_sparcs_3"
 - check missing values for all variables
 - drop all rows with missing values - also to decrease dataset size for merge purpose
+- (attempt was made to merge without dealing with missing values but failed due to python memory size)
 ## step 5: save the editted Sparcs dataset as a new dataset called "sparcs_new_noempty"
 
 ## step 6: merge "sparcs_new_noempty" and "atlas_new"
