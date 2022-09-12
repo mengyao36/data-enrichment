@@ -2,6 +2,7 @@
 
 ## step 1: import needed packages to python (pandas, numpy)
 ## step 2: covert Atlas dataset from txt to csv and load 
+- original txt file used: US_2019_ADI_Census Block Group_v3.1.txt
 - rename zip variable 
 - get the first three digits of zip varibale and save it as a new variable called "zip_atlas_3"
 - convert the new zip variable to string for future merge purpose
